@@ -1,0 +1,282 @@
+*{
+  font-size:16px;
+  color:white;
+  font-family:Micosoft YaHei;
+}
+
+QWidget{  
+	 /*background:#00162c; */
+	 background:#121212;
+}
+
+/**TabWIdget*/
+QTabWidget:pane { /* The tab widget frame */
+     border: 0px solid #32435E;
+     position: absolute;
+     left: -0.1em;
+}
+QTabBar:tab {
+     background: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+                                 stop: 0 #000, stop: 1 #696969);
+	/* background: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+                                 stop: 0 #006699, stop: 1 #0099cc); */
+	background:transparent;
+}
+QTabBar:tab:selected{
+     /* background: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+                                 stop: 0 #113845,  stop: 1.0 #15A8FF); */
+	background: #121212;
+	color:white;
+	
+}
+QTabBar:tab:hover {
+     background: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+                                 stop: 0 #113845,  stop: 1.0 #0E6F80);
+}
+
+QTabBar:tab:last:selected {
+    margin-right: 0;
+}
+QTabBar:tab:only-one {
+     margin: 0;
+}
+
+/**/
+QTableWidget{
+	background-color:#444444;
+	border-style:solid;
+	border-color:#00162c;
+	border-top-width:2px;border-left-width:1px;margin:0px;
+}
+QTableWidget[objectName="dict_table"] QHeaderView:section{
+	background-color:#666666;
+	border-bottom-style:outset;
+	border-bottom-color:white;
+	color:white;
+	font: normal 14pt Microsoft YaHei  ;
+}
+QTableWidget:item{
+}
+/**/
+
+/****************************/
+QTableWidget[objectName="patientTree"],QTableWidget[objectName="studyTree"],QTableWidget[objectName="seriesTree"]
+	,QTableWidget[objectName="pacs_table"]{
+	/* border:none; */
+	border-style:solid;
+	border-color:white;
+	border-width:1px;
+	background-color:transparent;
+}
+QTableWidget[objectName="patientTree"] QHeaderView:section, QTableWidget[objectName="studyTree"] QHeaderView:section,
+	QTableWidget[objectName="seriesTree"] QHeaderView:section,QTableWidget[objectName="pacs_table"] QHeaderView:section{
+	background-color:#666666;
+	border-bottom-style:solid;
+	border-bottom-color:white;
+	color:white;
+	font: normal 10pt Microsoft YaHei  ;
+}
+/**/
+
+
+QToolTip{
+	color:black;
+}
+
+/*************************¹¤¾ßÀ¸***********************/
+QToolBar{
+ 	background:#4a4a4a;
+	border-style: inset;
+	border-bottom-width: 4px;
+	border-color:#1f1f1f;
+}
+QToolButton
+{
+	background:transparent;
+    border:none;
+	padding:0px;
+	margin:2px;
+}
+/*normal*/
+/**/
+QToolButton[objectName="adjust_zoom_btn"]:disabled{	
+    image:url(:/images/zoomin.png)
+}
+QToolButton[objectName="adjust_zoomback_btn"]:disabled{	
+    image:url(:/images/zoomout.png)
+}
+QToolButton[objectName="adjust_window_btn"]:disabled{	
+    image:url(:/images/adjust.png)
+}
+QToolButton[objectName="adjust_undo_btn"]:disabled{
+    image:url(:/images/undo.png)
+}
+/**/
+QToolButton[objectName="measure_length_btn"]:disabled{
+    image:url(:/images/length.png)
+}
+QToolButton[objectName="measure_angle_btn"]:disabled{	
+    image:url(:/images/angle.png)
+}
+QToolButton[objectName="measure_area_btn"]:disabled{
+    image:url(:/images/area.png)
+}
+QToolButton[objectName="measure_area2_btn"]:disabled{
+    image:url(:/images/area2.png)
+}
+/**/
+QToolButton[objectName="text_arrow_btn"]:disabled{
+    image:url(:/images/arrow.png)
+}
+QToolButton[objectName="text_pencil_btn"]:disabled{
+    image:url(:/images/pencil.png)
+}
+QToolButton[objectName="text_showhide_btn"]:disabled{
+    image:url(:/images/text.png)
+}
+
+/*checked*/
+/**/
+QToolButton[objectName="adjust_zoom_btn"]:checked, QToolButton[objectName="adjust_zoom_btn"]:enabled{	
+    image:url(:/images/zoomin_gray.png)
+}
+QToolButton[objectName="adjust_zoomback_btn"]:checked,QToolButton[objectName="adjust_zoomback_btn"]:enabled{	
+    image:url(:/images/zoomout_gray.png)
+}
+QToolButton[objectName="adjust_window_btn"]:checked,QToolButton[objectName="adjust_window_btn"]:enabled{	
+    image:url(:/images/adjust_gray.png)
+}
+QToolButton[objectName="adjust_undo_btn"]:pressed,QToolButton[objectName="adjust_undo_btn"]:enabled{	
+    image:url(:/images/undo_gray.png)
+}
+/**/
+QToolButton[objectName="measure_length_btn"]:checked,QToolButton[objectName="measure_length_btn"]:enabled{	
+    image:url(:/images/length_gray.png)
+}
+QToolButton[objectName="measure_angle_btn"]:checked,QToolButton[objectName="measure_angle_btn"]:enabled{	
+    image:url(:/images/angle_gray.png)
+}
+QToolButton[objectName="measure_area_btn"]:checked,QToolButton[objectName="measure_area_btn"]:enabled{	
+    image:url(:/images/area_gray.png)
+}
+QToolButton[objectName="measure_area2_btn"]:checked,QToolButton[objectName="measure_area2_btn"]:enabled{	
+    image:url(:/images/area2_gray.png)
+}
+/**/
+QToolButton[objectName="text_arrow_btn"]:checked,QToolButton[objectName="text_arrow_btn"]:enabled{	
+    image:url(:/images/arrow_gray.png)
+}
+QToolButton[objectName="text_pencil_btn"]:checked,QToolButton[objectName="text_pencil_btn"]:enabled{	
+    image:url(:/images/pencil_gray.png)
+}
+QToolButton[objectName="text_showhide_btn"]:checked,QToolButton[objectName="text_showhide_btn"]:enabled{	
+    image:url(:/images/text_gray.png)
+}
+
+/***/
+QToolButton[objectName="adjust_zoom_btn"]:hover,QToolButton[objectName="adjust_zoomback_btn"]:hover,QToolButton[objectName="adjust_window_btn"]:hover,
+QToolButton[objectName="adjust_undo_btn"]:hover,QToolButton[objectName="measure_length_btn"]:hover,QToolButton[objectName="measure_angle_btn"]:hover,
+QToolButton[objectName="measure_area_btn"]:hover,QToolButton[objectName="measure_area2_btn"]:hover,QToolButton[objectName="text_pencil_btn"]:hover,
+QToolButton[objectName="text_arrow_btn"]:hover,QToolButton[objectName="text_showhide_btn"]:hover,QToolButton[objectName="window_layout_btn"]:hover
+{
+	margin:0px;
+	background: black;
+    border-style: none;
+    border-width: 1px;
+    border-radius: 3px;
+    border-color: #11223F;
+    padding: -5px;
+}
+/***/
+
+/**/
+QToolButton[objectName="close"]
+{
+	background:transparent;
+	image:url(:/images/close2.png);
+	margin-top:0px;
+	border-style:none;
+}
+QToolButton[objectName="close"]:hover
+{
+	background:#cc2222;
+	image:url(:/images/close2.png);
+	margin-top:0px;
+	border-style:none;
+	padding:-2px;
+}
+QToolButton[objectName="tools_dropdown"]
+{
+	background-color:black;
+	margin-right:2px;
+	padding:-1px;
+	image:url(:/images/dropdown.png);
+}
+QToolButton[objectName="window_change"]
+{
+	background:black;
+	margin-left:2px;
+	padding:-1px;
+	image:url(:/images/addwindow.png);
+}
+QToolButton[objectName="tools_dropdown"]:hover,QToolButton[objectName="window_change"]:hover
+{
+	background: white;
+    padding: -2px;
+}
+
+QToolButton[objectName="logo_btn"]
+{
+	background-color:#313131;
+	image:url(:/images/logo.png);
+	padding:-20px;
+	padding-top:0px;
+}
+
+/*******************************************/
+QTextEdit
+{
+	background:#111111;
+	border-color:#22ff22;
+}
+QPushButton
+{
+	background-color:#666666;
+	border-bottom-style:none;
+	font: normal 13pt Microsoft YaHei  ;
+	color:white;
+}
+
+QGroupBox [objectName="cc_tab_header_group"]
+{
+	background-color:white;
+	border-style:none;
+	border-radius:0px;
+	margin-left:5px;
+	margin-right:5px;
+	font: normal 16pt Micosoft YaHei  ;
+}
+
+QPushButton[objectName="delete_series_btn"],QPushButton[objectName="delete_cache_btn"]{
+	image:url(:/images/close2.png);
+	padding:3px;
+	background-color:transparent;
+}
+QPushButton[objectName="delete_series_btn"]:hover, QPushButton[objectName="delete_cache_btn"]:hover{
+	image:url(:/images/close2.png);
+	padding:0px;
+	background-color:transparent;
+}
+QPushButton[objectName="delete_series_btn"]:pressed,QPushButton[objectName="delete_cache_btn"]:pressed{
+	image:url(:/images/close2.png);
+	background-color:#996633;
+	padding:3px;
+}
+
+
+
+
+
+
+
+
