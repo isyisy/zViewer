@@ -1,0 +1,488 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;cxx;c;def</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h</Extensions>
+    </Filter>
+    <Filter Include="Form Files">
+      <UniqueIdentifier>{99349809-55BA-4b9d-BF79-8FDBB0286EB3}</UniqueIdentifier>
+      <Extensions>ui</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>moc;h;cpp</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Generated Files\Debug">
+      <UniqueIdentifier>{0dfca6c7-2125-4c90-8792-f99121d81247}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Generated Files\Release">
+      <UniqueIdentifier>{55860417-c684-4d98-9b0b-62f28e7fe339}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Header Files\cells">
+      <UniqueIdentifier>{61a34915-9dc4-43de-9677-84028edf6cdd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ui">
+      <UniqueIdentifier>{e741440b-3b7e-4cdf-83d6-3c2a432a732b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\logic">
+      <UniqueIdentifier>{9f0fdef6-696f-4f32-90d5-e080ddb9dd61}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\globals">
+      <UniqueIdentifier>{8887f2fe-9158-46b5-ab3b-6db97afede37}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ui">
+      <UniqueIdentifier>{5785a266-4312-468f-9c69-f83965809e00}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\logic">
+      <UniqueIdentifier>{bdaf19ac-7406-49b0-bd86-c1b7fdb868f8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\cells">
+      <UniqueIdentifier>{99996e7a-841c-4cb3-922c-82467ab2de83}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\globals">
+      <UniqueIdentifier>{f26f2a64-e619-4b1d-bfe3-c96629a120f9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ui\data">
+      <UniqueIdentifier>{3a7f7d9a-3fc2-4f21-ae05-2643fadeea23}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ui\view">
+      <UniqueIdentifier>{aa7334a1-1a0e-47da-a8ce-650944325da8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ui\widgets">
+      <UniqueIdentifier>{b8992258-bb4a-4317-9738-97b2d64e54f4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ui\window">
+      <UniqueIdentifier>{6658e14d-346b-4941-a9c2-6064601e54df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ui\data">
+      <UniqueIdentifier>{7b820f89-d8a9-41d6-aa2a-1322a343ec3b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ui\view">
+      <UniqueIdentifier>{3f64673f-1d64-4b9d-9a4a-84703a0afc56}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ui\widgets">
+      <UniqueIdentifier>{f69cc5e4-630a-43d4-8e4a-d47d96c9b59e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ui\window">
+      <UniqueIdentifier>{580ade2a-3569-4090-895f-cc1a0ba4f265}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\qrc_zviewer.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_zviewer.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_zviewer.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\zviewer.cpp">
+      <Filter>Source Files\ui\window</Filter>
+    </ClCompile>
+    <ClCompile Include="cells\Ellipse.cpp">
+      <Filter>Source Files\cells</Filter>
+    </ClCompile>
+    <ClCompile Include="cells\Line.cpp">
+      <Filter>Source Files\cells</Filter>
+    </ClCompile>
+    <ClCompile Include="cells\Rectangle.cpp">
+      <Filter>Source Files\cells</Filter>
+    </ClCompile>
+    <ClCompile Include="logic\CCDataLoader.cpp">
+      <Filter>Source Files\logic</Filter>
+    </ClCompile>
+    <ClCompile Include="logic\CCDicomUtils.cpp">
+      <Filter>Source Files\logic</Filter>
+    </ClCompile>
+    <ClCompile Include="logic\Configuration.cpp">
+      <Filter>Source Files\logic</Filter>
+    </ClCompile>
+    <ClCompile Include="logic\DataManager.cpp">
+      <Filter>Source Files\logic</Filter>
+    </ClCompile>
+    <ClCompile Include="logic\FileWatcher.cpp">
+      <Filter>Source Files\logic</Filter>
+    </ClCompile>
+    <ClCompile Include="logic\GLSLShader.cpp">
+      <Filter>Source Files\logic</Filter>
+    </ClCompile>
+    <ClCompile Include="logic\Img2DicomUtils.cpp">
+      <Filter>Source Files\logic</Filter>
+    </ClCompile>
+    <ClCompile Include="logic\Scp.cpp">
+      <Filter>Source Files\logic</Filter>
+    </ClCompile>
+    <ClCompile Include="logic\ScpThread.cpp">
+      <Filter>Source Files\logic</Filter>
+    </ClCompile>
+    <ClCompile Include="logic\Scu.cpp">
+      <Filter>Source Files\logic</Filter>
+    </ClCompile>
+    <ClCompile Include="logic\ScuThread.cpp">
+      <Filter>Source Files\logic</Filter>
+    </ClCompile>
+    <ClCompile Include="logic\SignalConverter.cpp">
+      <Filter>Source Files\logic</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\DataWidget.cpp">
+      <Filter>Source Files\ui\data</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\PacsSetDlg.cpp">
+      <Filter>Source Files\ui\data</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_CCDataLoader.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_CCDataLoader.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_CCDicomUtils.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_CCDicomUtils.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_DataManager.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_DataManager.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_FileWatcher.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_FileWatcher.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_Scp.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_Scp.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_ScpThread.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_ScpThread.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_Scu.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_Scu.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_ScuThread.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_ScuThread.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_SignalConverter.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_SignalConverter.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_DataWidget.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_DataWidget.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_PacsSetDlg.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_PacsSetDlg.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\CCDicomInfoDlg.cpp">
+      <Filter>Source Files\ui\widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\CCTabButtonWidget.cpp">
+      <Filter>Source Files\ui\widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_CCDicomInfoDlg.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_CCDicomInfoDlg.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_CCTabButtonWidget.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_CCTabButtonWidget.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_CCMainWidget.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_CCMainWidget.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_CCTabHeaderWidget.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_CCTabHeaderWidget.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\CCMainWidget.cpp">
+      <Filter>Source Files\ui\window</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\CCTabHeaderWidget.cpp">
+      <Filter>Source Files\ui\window</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_CCBasicView.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_CCBasicView.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_CCCaheWidget.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_CCCaheWidget.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_CCDictionary.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_CCDictionary.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_CCImageView.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_CCImageView.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_CCMultiView.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_CCMultiView.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_CCSeriesWidget.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_CCSeriesWidget.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_CCToolBar.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_CCToolBar.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_CustomLabel.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_CustomLabel.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_MainView.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_MainView.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_ReportEditView.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_ReportEditView.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_ThumbWidget.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_ThumbWidget.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_ViewReportWidget.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_ViewReportWidget.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_ViewWidget.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_ViewWidget.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\CCBasicView.cpp">
+      <Filter>Source Files\ui\view</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\CCCaheWidget.cpp">
+      <Filter>Source Files\ui\view</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\CCDictionary.cpp">
+      <Filter>Source Files\ui\view</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\CCImageView.cpp">
+      <Filter>Source Files\ui\view</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\CCMultiView.cpp">
+      <Filter>Source Files\ui\view</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\CCSeriesWidget.cpp">
+      <Filter>Source Files\ui\view</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\CCToolBar.cpp">
+      <Filter>Source Files\ui\view</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\CustomLabel.cpp">
+      <Filter>Source Files\ui\view</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\MainView.cpp">
+      <Filter>Source Files\ui\view</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\ReportEditView.cpp">
+      <Filter>Source Files\ui\view</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\ThumbWidget.cpp">
+      <Filter>Source Files\ui\view</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\ViewReportWidget.cpp">
+      <Filter>Source Files\ui\view</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\ViewWidget.cpp">
+      <Filter>Source Files\ui\view</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="zviewer.qrc">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="ui\zviewer.h">
+      <Filter>Header Files\ui\window</Filter>
+    </CustomBuild>
+    <CustomBuild Include="cells\Ellipse.h">
+      <Filter>Header Files\cells</Filter>
+    </CustomBuild>
+    <CustomBuild Include="cells\Line.h">
+      <Filter>Header Files\cells</Filter>
+    </CustomBuild>
+    <CustomBuild Include="cells\Rectangle.h">
+      <Filter>Header Files\cells</Filter>
+    </CustomBuild>
+    <CustomBuild Include="globals\CCGlobalConsts.h">
+      <Filter>Header Files\globals</Filter>
+    </CustomBuild>
+    <CustomBuild Include="globals\CCGlobalStructs.h">
+      <Filter>Header Files\globals</Filter>
+    </CustomBuild>
+    <CustomBuild Include="logic\CCDataLoader.h">
+      <Filter>Header Files\logic</Filter>
+    </CustomBuild>
+    <CustomBuild Include="logic\CCDicomUtils.h">
+      <Filter>Header Files\logic</Filter>
+    </CustomBuild>
+    <CustomBuild Include="logic\Configuration.h">
+      <Filter>Header Files\logic</Filter>
+    </CustomBuild>
+    <CustomBuild Include="logic\DataManager.h">
+      <Filter>Header Files\logic</Filter>
+    </CustomBuild>
+    <CustomBuild Include="logic\FileWatcher.h">
+      <Filter>Header Files\logic</Filter>
+    </CustomBuild>
+    <CustomBuild Include="logic\GLSLShader.h">
+      <Filter>Header Files\logic</Filter>
+    </CustomBuild>
+    <CustomBuild Include="logic\Img2DicomUtils.h">
+      <Filter>Header Files\logic</Filter>
+    </CustomBuild>
+    <CustomBuild Include="logic\Scp.h">
+      <Filter>Header Files\logic</Filter>
+    </CustomBuild>
+    <CustomBuild Include="logic\ScpThread.h">
+      <Filter>Header Files\logic</Filter>
+    </CustomBuild>
+    <CustomBuild Include="logic\Scu.h">
+      <Filter>Header Files\logic</Filter>
+    </CustomBuild>
+    <CustomBuild Include="logic\ScuThread.h">
+      <Filter>Header Files\logic</Filter>
+    </CustomBuild>
+    <CustomBuild Include="logic\SignalConverter.h">
+      <Filter>Header Files\logic</Filter>
+    </CustomBuild>
+    <CustomBuild Include="ui\DataWidget.h">
+      <Filter>Header Files\ui\data</Filter>
+    </CustomBuild>
+    <CustomBuild Include="ui\PacsSetDlg.h">
+      <Filter>Header Files\ui\data</Filter>
+    </CustomBuild>
+    <CustomBuild Include="ui\CCDicomInfoDlg.h">
+      <Filter>Header Files\ui\widgets</Filter>
+    </CustomBuild>
+    <CustomBuild Include="ui\CCTabButtonWidget.h">
+      <Filter>Header Files\ui\widgets</Filter>
+    </CustomBuild>
+    <CustomBuild Include="ui\CCMainWidget.h">
+      <Filter>Header Files\ui\window</Filter>
+    </CustomBuild>
+    <CustomBuild Include="ui\CCTabHeaderWidget.h">
+      <Filter>Header Files\ui\window</Filter>
+    </CustomBuild>
+    <CustomBuild Include="ui\CCBasicView.h">
+      <Filter>Header Files\ui\view</Filter>
+    </CustomBuild>
+    <CustomBuild Include="ui\CCCaheWidget.h">
+      <Filter>Header Files\ui\view</Filter>
+    </CustomBuild>
+    <CustomBuild Include="ui\CCDictionary.h">
+      <Filter>Header Files\ui\view</Filter>
+    </CustomBuild>
+    <CustomBuild Include="ui\CCImageView.h">
+      <Filter>Header Files\ui\view</Filter>
+    </CustomBuild>
+    <CustomBuild Include="ui\CCMultiView.h">
+      <Filter>Header Files\ui\view</Filter>
+    </CustomBuild>
+    <CustomBuild Include="ui\CCSeriesWidget.h">
+      <Filter>Header Files\ui\view</Filter>
+    </CustomBuild>
+    <CustomBuild Include="ui\CCToolBar.h">
+      <Filter>Header Files\ui\view</Filter>
+    </CustomBuild>
+    <CustomBuild Include="ui\CustomLabel.h">
+      <Filter>Header Files\ui\view</Filter>
+    </CustomBuild>
+    <CustomBuild Include="ui\MainView.h">
+      <Filter>Header Files\ui\view</Filter>
+    </CustomBuild>
+    <CustomBuild Include="ui\ReportEditView.h">
+      <Filter>Header Files\ui\view</Filter>
+    </CustomBuild>
+    <CustomBuild Include="ui\ThumbWidget.h">
+      <Filter>Header Files\ui\view</Filter>
+    </CustomBuild>
+    <CustomBuild Include="ui\ViewReportWidget.h">
+      <Filter>Header Files\ui\view</Filter>
+    </CustomBuild>
+    <CustomBuild Include="ui\ViewWidget.h">
+      <Filter>Header Files\ui\view</Filter>
+    </CustomBuild>
+  </ItemGroup>
+</Project>
